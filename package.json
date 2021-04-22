@@ -1,4 +1,9 @@
 {
+  "name": "next-blog",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "ozers <ozersubasi@gmail.com>",
+  "license": "MIT",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -9,15 +14,12 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   },
-  "name": "next-blog",
-  "version": "1.0.0",
-  "main": "index.js",
-  "author": "ozers <ozersubasi@gmail.com>",
-  "license": "MIT",
   "devDependencies": {
+    "@tailwindcss/jit": "^0.1.18",
     "autoprefixer": "^10.2.5",
     "postcss": "^8.2.12",
     "prettier": "^2.2.1",
     "tailwindcss": "^2.1.1"
-  }
+  },
+  "repository": "https://github.com/ozers/next-blog.git"
 }
